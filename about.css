@@ -1,0 +1,92 @@
+
+/*Rotation Styles */
+.carousel-rotates{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.starAutoRotate{
+    font-size: 4rem;
+    animation: autoRotate;
+    animation-timeline: view();
+}
+@keyframes autoRotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+/* About Page Styles */
+.about-page {
+    padding: 20px 0;
+    margin-top: 100px;
+    background:  #3cd007;
+}
+
+.about-intro, .our-mission, .our-team {
+    padding: 40px 0;
+    text-align: center;
+    background: #fff;
+    margin: 20px 30px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.about-intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-intro p, .our-mission p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.our-mission h2, .our-team h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-member {
+    background-color: #3dd00771;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,123 @@
+/* Shop Page Styles */
+.shop-page {
+    padding-top: 20px;
+}
+
+/* Featured Products, New Arrivals, and Categories Sections */
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-grid, .category-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-card, .category-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.product-card img, .category-card img {
+    width: 100%;
+    display: block;
+}
+
+.product-info, .category-card h3 {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-info h3, .category-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.btn-secondary {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #218838;
+}
+
+/* Hover Effects */
+.product-card:hover, .category-card:hover {
+    transform: scale(1.05);
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-link {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.page-link:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .product-grid, .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .filter {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-grid, .category-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        text-align: center;
+    }
+}

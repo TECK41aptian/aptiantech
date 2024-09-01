@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Aptian Tech</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <p><h1>Aptian</h1></p>
+                <div class="sub-logo">
+                    <p><h1>Tech</h1></p>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="shop.html"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                    <li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
+                    <li><a href="contact.html"><i class="fa fa-comment"></i> Contact</a></li>
+                    <li><a href="faq.html"><i class="fa fa-question"></i> FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="button"><i class="fa fa-search"></i>Search</button>
+            </div>
+            <div class="cart-icon">
+                <a href="#cart">🛒<span class="cart-count">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Shopping Page Content -->
+    <main class="shop-page">
+        <!-- Featured Products Section -->
+        <section class="featured-products" id="featured">
+            <div class="featured-container">
+                <h2 class="section-title">Featured Products</h2>
+                <div class="product-grid">
+                    <!-- Product Cards -->
+                    <div class="product-card">
+                        <img src="products/multimeter.png" alt="Product 1">
+                        <div class="product-info">
+                            <h3>Multimeter</h3>
+                            <p>$29.99</p>
+                            <a href="#" class="btn-secondary">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="products/pliers.jpg" alt="Product 2">
+                        <div class="product-info">
+                            <h3>Pliers Set</h3>
+                            <p>$9.99</p>
+                            <a href="#" class="btn-secondary">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="products/crimper3.png" alt="Product 3">
+                        <div class="product-info">
+                            <h3>Haupa Crimper</h3>
+                            <p>$14.99</p>
+                            <a href="#" class="btn-secondary">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="products/deutschcrimper.webp" alt="Product 4">
+                        <div class="product-info">
+                            <h3>Deutsch Crimper</h3>
+                            <p>$49.99</p>
+                            <a href="#" class="btn-secondary">Add to Cart</a>
+                        </div>
+                    </div>
+                    <!-- Repeat for more products -->
+                </div>
+            </div>
+        </section>
+
+        <!-- New Arrivals Section -->
+        <section class="new-arrivals" id="new-arrivals">
+            <div class="new-arrivals-container">
+                <h2 class="section-title">New Arrivals</h2>
+                <div class="product-grid">
+                    <!-- Product Cards -->
+                <div class="product-card">
+                    <img src="products/current-tester.webp" alt="Product 9">
+                    <div class="product-info">
+                        <h3>Current Tester</h3>
+                        <p>$14.49</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="products/electric-striper.jpg" alt="Product 10">
+                    <div class="product-info">
+                        <h3>Electric Striper</h3>
+                        <p>$5.49</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="products/pentester.jpg" alt="Product 11">
+                    <div class="product-info">
+                        <h3>Voltage Pen Tester</h3>
+                        <p>$6.49</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="products/UT683KIT-wire tracker.jpg" alt="Product 12">
+                    <div class="product-info">
+                        <h3>Wire Tracker</h3>
+                        <p>$49.49</p>
+                        <a href="#" class="btn-secondary">Add to Cart</a>
+                    </div>
+                </div>
+                    <!-- Repeat for more products -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories" id="categories">
+            <div class="categories-container">
+                <h2 class="section-title">Shop by Category</h2>
+                <div class="category-grid">
+                    <a href="#" class="category-card">
+                        <img src="products/multimeter-ohm-meter-voltmeter-vom-meter.jpg" alt="Electronics">
+                        <h3>Electronics</h3>
+                    </a>
+                    <!-- Repeat for more categories -->
+                </div>
+                <div class="category-grid">
+                    <a href="#" class="category-card">
+                        <img src="products/current-tester.webp" alt="Electrical">
+                        <h3>Electrical</h3>
+                    </a>
+                    <!-- Repeat for more categories -->
+                </div>
+                <div class="category-grid">
+                    <a href="#" class="category-card">
+                        <img src="products/UT683KIT-wire tracker.jpg" alt="Mechanical">
+                        <h3>Mechanical</h3>
+                    </a>
+                    <!-- Repeat for more categories -->
+                </div>
+                <div class="category-grid">
+                    <a href="#" class="category-card">
+                        <img src="products/laps rbg.png" alt="Graphics">
+                        <h3>Graphics</h3>
+                    </a>
+                    <!-- Repeat for more categories -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Listings Section -->
+        <section class="product-listings" id="products">
+            <div class="product-listings-container">
+                <h2 class="section-title">All Products</h2>
+                <!-- Filters -->
+                <div class="filters">
+                    <select class="filter" id="sort">
+                        <option value="default">Sort by: Default</option>
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="newest">Newest Arrivals</option>
+                    </select>
+                    <input type="text" class="filter" id="search" placeholder="Search products...">
+                </div>
+                <div class="product-grid">
+                    <!-- Product Cards -->
+                    <div class="product-card">
+                        <img src="products/4-removebg-preview.png" alt="Product 3">
+                        <div class="product-info">
+                            <h3>Coffee Cup</h3>
+                            <p>$3.99</p>
+                            <a href="#" class="btn-secondary">Add to Card</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="products/laps.jpg" alt="Product 3">
+                        <div class="product-info">
+                            <h3>Laptop</h3>
+                            <p>$39.99</p>
+                            <a href="#" class="btn-secondary">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="products/tools7-removebg.png" alt="Product 3">
+                        <div class="product-info">
+                            <h3>Pliers</h3>
+                            <p>$3.99</p>
+                            <a href="#" class="btn-secondary">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="products/UT683KIT-wire tracker.jpg" alt="Product 3">
+                        <div class="product-info">
+                            <h3>Wire Tracker</h3>
+                            <p>$49.99</p>
+                            <a href="#" class="btn-secondary">Add to Cart</a>
+                        </div>
+                    </div>
+                    <!-- Repeat for more products -->
+                </div>
+                <!-- Pagination -->
+                <div class="pagination">
+                    <a href="#" class="page-link">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">Next</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <!-- Footer Section -->
+   <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- About Us Column -->
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p> We are dedicated to providing the best tools that you needed.</p>
+            </div>
+
+            <!-- Useful Links Column -->
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="shop.html"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                    <li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
+                    <li><a href="contact.html"><i class="fa fa-comment"></i> Contact</a></li>
+                    <li><a href="#privacy"><i class="fa fa-lock"></i> Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Follow Us Column -->
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="social-icons/facebook-color.webp" alt="Facebook"></a>
+                    <a href="#"><img src="social-icons/twitter-color.png" alt="Twitter"></a>
+                    <a href="#"><img src="social-icons/instagram-color.png" alt="Instagram"></a>
+                    <a href="#"><img src="social-icons/linkedin-color.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="social-icons/youtube-color.png" alt="YouTube"></a>
+                </div>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="footer-column">
+                <h3>Subscribe</h3>
+                <p>Sign up for our newsletter to stay updated with our latest offers and news.</p>
+                <form class="newsletter-form">
+                    <div class="e-mail">
+                        <label class="icon"><i class="fa fa-envelope"></i> </label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Aptian Tech. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="shop.js"></script>
+</body>
+</html>

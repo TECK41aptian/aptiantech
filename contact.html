@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Aptian Tech</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <p><h1>Aptian</h1></p>
+                <div class="sub-logo">
+                    <p><h1>Tech</h1></p>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="shop.html"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                    <li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
+                    <li><a href="contact.html"><i class="fa fa-comment"></i> Contact</a></li>
+                    <li><a href="faq.html"><i class="fa fa-question"></i> FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button type="button"><i class="fa fa-search"></i>Search</button>
+            </div>
+            <div class="cart-icon">
+                <a href="#cart">🛒<span class="cart-count">0</span></a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="contact">
+        <div class="animate__animated animate__fadeInDown">
+            <div class="contact-container" >
+                <h1>Contact Us</h1>
+                <div class="contact-info">
+        
+                    <p>Fill out the form below to send us a message. We look forward to hearing from you!</p>
+                </div>
+                <form id="contact-form" action="contact.php" method="post">
+                    <div class="form-group">
+                        <label for="name"><i class="fas fa-user"></i></label>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i></label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone"><i class="fas fa-phone"></i></label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"><i class="fas fa-comment-dots"></i></label>
+                        <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button"><i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+            </div>
+        </section>
+            <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Us Column -->
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p> We are dedicated to providing the best tools that you needed.</p>
+                </div>
+
+                <!-- Useful Links Column -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="shop.html"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                        <li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
+                        <li><a href="contact.html"><i class="fa fa-comment"></i> Contact</a></li>
+                        <li><a href="#privacy"><i class="fa fa-lock"></i> Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Follow Us Column -->
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="social-icons/facebook-color.webp" alt="Facebook"></a>
+                        <a href="#"><img src="social-icons/twitter-color.png" alt="Twitter"></a>
+                        <a href="#"><img src="social-icons/instagram-color.png" alt="Instagram"></a>
+                        <a href="#"><img src="social-icons/linkedin-color.png" alt="LinkedIn"></a>
+                        <a href="#"><img src="social-icons/youtube-color.png" alt="YouTube"></a>
+                    </div>
+                </div>
+
+                <!-- Newsletter Column -->
+                <div class="footer-column">
+                    <h3>Subscribe</h3>
+                    <p>Sign up for our newsletter to stay updated with our latest offers and news.</p>
+                    <form class="newsletter-form">
+                        <div class="e-mail">
+                            <label class="icon"><i class="fa fa-envelope"></i> </label>
+                            <input type="email" placeholder="Enter your email" required>
+                        </div>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Aptian Tech. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
